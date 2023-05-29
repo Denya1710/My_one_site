@@ -1,0 +1,136 @@
+*{
+    padding: 0; margin: 0;
+}
+.letz{
+    background: url(https://shop.davidbalyeat.com/wp-content/uploads/2017/04/AR_1718.jpg) center center no-repeat;
+    background-size: cover;
+}
+body{
+    color: gray;
+    line-height: 1.5;
+    font-size: 1rem;
+}
+.w{
+    max-width: 1080px;
+    min-width: 320px;
+    margin: 0 auto;
+    padding: 0 25px; /* отступы по краям*/
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 28px;
+    box-sizing: border-box;
+    max-width: 1230px;
+    margin: 0 auto;
+    backdrop-filter: blur(7.5px);
+}
+.header{
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    list-style: none;
+}
+.menu li{
+    margin-left: 94px;
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.19rem;
+    font-weight: 700px;
+    border: 1px solid azure;
+    border-radius: 18px;
+    padding: 5px 14px;
+    display: inline-block;
+    margin: 0 15px;
+    background-color:chocolate;
+    background: chocolate;
+}
+.menu li a{
+    color: black; text-decoration: none;
+}
+.menu li:hover{
+    background-color: rgb(105, 50, 10);
+}
+.down_w{
+    background-size: cover;
+    padding: 76px 0 164px 0;
+}
+.down{
+    color:azure;
+    text-align: center;
+}
+.t1{
+    font-weight: 700; font-size: 1,5rem; line-height: 2rem; margin-bottom: 15px;
+}
+.t2{
+    font-weight: 700; font-size: 3rem; line-height: 5rem; margin-bottom: 20px;
+}
+.t3{
+    font-weight: 500; font-size: 1,5rem; line-height: 2rem; margin-bottom: 50px;
+}
+.btn{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700px;
+    border: 1px solid #FFFFFF;
+    border-radius: 32px;
+    padding: 16px 60px;
+    display: inline-block;
+    margin: 0 15px;
+    margin-bottom: 60px;
+}
+.btn--color{
+    background-color:aliceblue;
+    background: chocolate;
+}
+.btn:hover{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700px;
+    border: 1px solid #FFFFFF;
+    border-radius: 32px;
+    padding: 16px 60px;
+    display: inline-block;
+    margin: 0 15px;
+    background-color:rgb(105, 50, 10);
+    background: chocolatergb(105, 50, 10);
+}
+.work_w{
+    padding: 20px 0;
+}
+.v1{
+    font-size: 2.75rem; font-weight: 600; text-align: center; color: black; margin: 40px;
+}
+.v3{
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.img1{
+    width: 47%; text-align: center;
+}
+.txt{
+    width: 50%;
+}
+.txt1 h3{
+    color: chocolate; font-weight: 700; font-size: 1,5rem; line-height: 3,5rem; margin-bottom: 20px;
+}
+.txt1 h2{
+    color: rgb(19, 18, 18); font-weight: 700; font-size: 2,5rem; line-height: 3,5rem; margin-bottom: 30px;
+}
+.txt1{
+    font-weight: 500; font-size: 1,5rem; line-height: 2,375rem;
+}
+.v3:nth-child(2n){
+    flex-direction: row-reverse;
+}
+v3:last-child{
+    margin-bottom: 0;
+}
